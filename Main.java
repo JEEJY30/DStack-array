@@ -1,0 +1,56 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        DStack stack = new DStack();
+        stack.push(18);
+        stack.show();
+        stack.push(24);
+        stack.show();
+        stack.push(26);
+        stack.show();
+        stack.push(11);
+        stack.show();
+        stack.push(15);
+        stack.show();
+        stack.push(18);
+        stack.show();
+        stack.push(24);
+        stack.show();
+        stack.push(26);
+        stack.show();
+        stack.push(24);
+        stack.show();
+        stack.push(26);
+        stack.show();
+        stack.push(11);
+        stack.show();
+        stack.push(15);
+        stack.show();
+        stack.push(18);
+        stack.show();
+        stack.push(24);
+        stack.show();
+        stack.push(26);
+        stack.show();
+        stack.push(11);
+        stack.show();
+        stack.push(15);
+        stack.show();
+        stack.pop();
+        stack.show();
+        stack.pop();
+        stack.pop();
+        stack.show();
+        stack.pop();
+        stack.pop();
+        stack.show();
+        stack.pop();
+        stack.pop();
+        stack.show();
+        stack.pop();
+        stack.pop();
+        stack.show();
+        stack.pop();
+    }
+}
